@@ -47,3 +47,4 @@ The local version implements a rigid 4-step wizard interface. Users navigate thr
 1. Install dependencies: `npm install`
 2. Start the local dev server: `npm run dev` (Access via `http://localhost:5173`)
 3. Run the automated test suite: `npm run test`
+
