@@ -1,13 +1,13 @@
 :root {
   /* Colors */
-  --color-primary-blue: #1998D1;
-  --color-primary-navy: #1E2D40;
+  --color-primary-blue: #1998d1;
+  --color-primary-navy: #1e2d40;
   --color-text-primary: #333333;
-  --color-link: #0065BD;
-  --color-bg-light: #F2F2F2;
+  --color-link: #0065bd;
+  --color-bg-light: #f2f2f2;
   --color-success: #00703c;
   --color-error: #d4351c;
-  --color-white: #FFFFFF;
+  --color-white: #ffffff;
 
   /* Typography */
   --font-family-primary: 'Nunito', sans-serif;
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .btn-primary:hover {
-  background-color: #157EA8;
+  background-color: #157ea8;
   color: var(--color-white);
   text-decoration: none;
 }

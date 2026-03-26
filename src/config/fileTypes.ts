@@ -1,15 +1,15 @@
 export const SUPPORTED_FILE_TYPES = {
-    // Video Types
-    'video/mp4': ['.mp4'],
-    'video/quicktime': ['.mov'],
-    'video/x-msvideo': ['.avi'],
-    'video/x-matroska': ['.mkv'],
+  // Video Types
+  'video/mp4': ['.mp4'],
+  'video/quicktime': ['.mov'],
+  'video/x-msvideo': ['.avi'],
+  'video/x-matroska': ['.mkv'],
 
-    // Audio Types
-    'audio/mpeg': ['.mp3'],
-    'audio/wav': ['.wav'],
-    'audio/aac': ['.aac'],
-    'audio/m4a': ['.m4a'],
+  // Audio Types
+  'audio/mpeg': ['.mp3'],
+  'audio/wav': ['.wav'],
+  'audio/aac': ['.aac'],
+  'audio/m4a': ['.m4a'],
 };
 
 /**
@@ -18,6 +18,6 @@ export const SUPPORTED_FILE_TYPES = {
  * Perfect for generating readable UI instructions and the native input "accept" attribute.
  */
 export const getAllowedExtensionsString = (): string => {
-    const extensions = Object.values(SUPPORTED_FILE_TYPES).flat();
-    return extensions.join(', ');
+  const extensions = Object.values(SUPPORTED_FILE_TYPES).flat();
+  return extensions.join(', ');
 };
