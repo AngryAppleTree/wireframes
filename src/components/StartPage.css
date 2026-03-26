@@ -1,0 +1,15 @@
+.start-page-container {
+    max-width: 800px;
+}
+
+.start-page-description {
+    font-size: 19px;
+}
+
+.start-page-description-top {
+    margin-top: 30px;
+}
+
+.start-page-description-bottom {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,57 @@
+.upload-page-container {
+    max-width: 800px;
+}
+
+.upload-description {
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.upload-file-types {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: var(--color-primary-navy);
+}
+
+.upload-form-group {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px dashed var(--color-primary-blue);
+    background-color: var(--color-bg-light);
+}
+
+.upload-label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: var(--color-text-primary);
+}
+
+.upload-input {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+
+
+.upload-input-subtext {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--color-text-primary);
+}
+
+.upload-error-msg {
+    color: var(--color-error);
+    /* Official gov.uk error red style */
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.upload-actions {
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,62 @@
+.metadata-page-container {
+    max-width: 800px;
+}
+
+.metadata-form {
+    margin-top: 40px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 19px;
+    color: var(--color-text-primary);
+}
+
+.form-control {
+    width: 100%;
+    max-width: 400px;
+    /* Keep inputs from stretching endlessly on large screens */
+    padding: 12px;
+    font-size: 19px;
+    /* Accessibility: keeps fonts large, also avoids zooming in iOS Safari */
+    font-family: var(--font-family-primary);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: var(--color-white);
+    color: var(--color-text-primary);
+}
+
+.form-control:focus {
+    outline: 3px solid var(--color-primary-blue);
+    border-color: transparent;
+}
+
+.form-actions {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.metadata-input-subtext {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: var(--color-text-primary);
+}
+
+.metadata-error-msg {
+    color: var(--color-error);
+    /* Official gov.uk error red style */
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.input-error {
+    border: 3px solid var(--color-error);
+}

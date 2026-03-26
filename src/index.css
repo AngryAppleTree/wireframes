@@ -1,0 +1,110 @@
+:root {
+  /* Colors */
+  --color-primary-blue: #1998D1;
+  --color-primary-navy: #1E2D40;
+  --color-text-primary: #333333;
+  --color-link: #0065BD;
+  --color-bg-light: #F2F2F2;
+  --color-success: #00703c;
+  --color-error: #d4351c;
+  --color-white: #FFFFFF;
+
+  /* Typography */
+  --font-family-primary: 'Nunito', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-primary);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-light);
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+h2,
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--color-primary-navy);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Base button styles */
+.btn {
+  display: inline-block;
+  padding: 13.5px 20px;
+  border-radius: 0;
+  font-size: 19px;
+  font-family: var(--font-family-primary);
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--color-primary-blue);
+  color: var(--color-white);
+}
+
+.btn-primary:hover {
+  background-color: #157EA8;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-primary-blue);
+  border: 1px solid var(--color-primary-blue);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary-blue);
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+/* Screen reader only utility class pattern for contextual help text */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Reusable Back Link Pattern */
+.back-link-container {
+  margin-bottom: 20px;
+}
+
+.back-link {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

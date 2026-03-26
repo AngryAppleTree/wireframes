@@ -1,0 +1,27 @@
+.confirmation-page-container {
+    max-width: 800px;
+}
+
+.success-banner {
+    background-color: var(--color-success);
+    /* Official gov.uk success green style */
+    color: var(--color-white);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.confirmation-title {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.confirmation-description {
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+.confirmation-actions {
+    margin-top: 40px;
+}
